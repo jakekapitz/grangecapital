@@ -7,14 +7,35 @@ const tailwindcss = require("tailwindcss")
 
 module.exports = {
   siteName: 'Grange Capital',
-  plugins: [],
+  plugins: [
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'posts/**/*.md',
+        typeName: 'Post',
+      }
+    },
+    {
+      use: 'gridsome-plugin-netlify-cms',
+      options: {
+        publicPath: `/admin`
+      }
+    }
+  ],
   css: {
     loaderOptions:{
       postcss: {
         plugins: [
           tailwindcss
-        ],
-      },
-    },
-  }
+        ]
+      }
+    }
+  },
+  transformers: {
+    remark: {
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+      anchorClassName: 'icon icon-link',
+    }
+  },
 }
