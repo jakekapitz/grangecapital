@@ -5,3 +5,6 @@
 .transition-color {
   transition: color 0.2s linear;
 }
+.transition-background-color {
+  transition: background-color 0.2s linear;
+}

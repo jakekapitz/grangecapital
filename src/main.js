@@ -10,10 +10,6 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('Layout', DefaultLayout),
   head.link.push({
     rel: 'stylesheet',
-    href: 'href="https://fonts.googleapis.com/css?family=Abhaya+Libre&display=swap'
-  })
-  head.link.push({
-    rel: 'stylesheet',
-    href: 'href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap'
+    href: 'href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Open+Sans&display=swap'
   })
 }
