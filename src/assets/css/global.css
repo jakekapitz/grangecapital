@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.transition-color {
+  transition: color 0.2s linear;
+}

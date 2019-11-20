@@ -1,5 +1,21 @@
 export default [
   {
+    path: "/team/",
+    component: () => import(/* webpackChunkName: "page--src-pages-team-vue" */ "C:\\sites\\client\\grangecapital\\src\\pages\\Team.vue")
+  },
+  {
+    path: "/news/",
+    component: () => import(/* webpackChunkName: "page--src-pages-news-vue" */ "C:\\sites\\client\\grangecapital\\src\\pages\\News.vue")
+  },
+  {
+    path: "/contact/",
+    component: () => import(/* webpackChunkName: "page--src-pages-contact-vue" */ "C:\\sites\\client\\grangecapital\\src\\pages\\Contact.vue")
+  },
+  {
+    path: "/business/",
+    component: () => import(/* webpackChunkName: "page--src-pages-business-vue" */ "C:\\sites\\client\\grangecapital\\src\\pages\\Business.vue")
+  },
+  {
     path: "/about/",
     component: () => import(/* webpackChunkName: "page--src-pages-about-vue" */ "C:\\sites\\client\\grangecapital\\src\\pages\\About.vue")
   },
