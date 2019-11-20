@@ -1,6 +1,6 @@
 <template>
-    <footer class="w-full h-auto mx-auto bg-gc-light-grey text-white">
-        <div class="container mx-auto flex justify-center items-center py-12">
+    <footer class="w-full bg-gc-light-grey text-white">
+        <div class="container mx-auto px-4 flex items-around py-12">
                 <div class="w-full md:w-1/3 flex flex-col items-center">
                     <g-image src="~/assets/images/coat-of-arms.png" width="200p" />
                     <h3 class="font-display text-center text-xl font-bold uppercase">Grange Capital</h3>

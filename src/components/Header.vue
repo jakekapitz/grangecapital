@@ -1,6 +1,6 @@
 <template>
     <header class="w-full h-auto mx-auto shadow-lg font-display">
-        <div class="container mx-auto flex justify-around items-center ">
+        <div class="container mx-auto px-4 flex justify-between items-center ">
             <g-link to="/">
                 <g-image src="~/assets/images/logo.jpg" width="250" class="my-4"/>
             </g-link>
@@ -21,7 +21,7 @@ export default {
     name: 'Header',
     data () {
         return {
-            
+
         }
     }
 }
