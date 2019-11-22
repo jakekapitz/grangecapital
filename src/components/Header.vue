@@ -1,8 +1,8 @@
 <template>
-    <header class="w-full h-auto mx-auto shadow-lg font-display">
+    <header class="w-full h-auto mx-auto shadow-lg font-display sticky top-0 z-10 bg-white">
         <div class="container mx-auto px-4 flex justify-between items-center ">
             <g-link to="/">
-                <g-image src="~/assets/images/logo.jpg" width="250" class="my-4"/>
+                <g-image src="~/assets/images/logo.jpg" width="225" class="my-2"/>
             </g-link>
             <nav class="flex sm:hidden md:flex font-display text-xl text-gray-800 font-bold">
                 <g-link class="ml-8 hover:text-grange-yellow transition-color" to="/">Home</g-link>

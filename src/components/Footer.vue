@@ -14,6 +14,11 @@
                     <ul class="font-medium mb-4">Address:
                         <li class="text-sm font-light">Suite 33, 574 Plummer Street<br><span class="font-semibold">PORT MELBOURNE VIC 3207</span></li>
                     </ul>
+                    <ul>
+                        <li><a href="https://facebook.com/grangecapital"><font-awesome :icon="['fab', 'facebook']" /></a></li>
+                        <li><a href="https://instagram.com/grangecapital"><font-awesome :icon="['fab', 'instagram']" /></a></li>
+                        <li><a href="https://linkedin.com/au/grangecapital"><font-awesome :icon="['fab', 'linkedin']" /></a></li>
+                    </ul>
                 </div>
                 <div class="w-full md:w-1/3 flex flex-col items-center">
                     <h3 class="font-bold capitalize mb-4 font-display text-xl">News</h3>
