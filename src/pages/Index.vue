@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <main class="relative w-full h-auto">
-      <g-image class="w-full" src="~/assets/images/home-melbourne.jpg" fit="cover" />
+      <g-image class="w-full" src="~/assets/images/home-melbourne.jpg" fit="cover" quality="100" />
       <div class="w-1/2 absolute top-0 right-0 mt-48 mr-40">
         <h2 class="text-white text-5xl font-black font-display text-right mb-4 leading-tight">Bespoke Lending Solutions & Investment Management</h2>
         <div class="flex justify-end">
