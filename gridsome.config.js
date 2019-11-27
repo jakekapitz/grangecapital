@@ -7,6 +7,7 @@ const tailwindcss = require("tailwindcss")
 
 module.exports = {
   siteName: 'Grange Capital',
+  siteUrl: 'https://grangecapital.com.au',
   plugins: [
     {
       use: '@gridsome/source-filesystem',
@@ -22,6 +23,7 @@ module.exports = {
       }
     }
   ],
+  icon: '/src/favicon.png',
   css: {
     loaderOptions:{
       postcss: {
