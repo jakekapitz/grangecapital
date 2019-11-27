@@ -1,5 +1,29 @@
 export default [
   {
+    path: "/posts/residual-stock-construction-loan-funded-in-8-days/",
+    component: () => import(/* webpackChunkName: "page--src-templates-post-vue" */ "C:\\sites\\client\\grangecapital\\src\\templates\\Post.vue")
+  },
+  {
+    path: "/posts/grange-capital-raises-finance-for-12m-mixed-user-development-in-sydneys-northern-beaches/",
+    component: () => import(/* webpackChunkName: "page--src-templates-post-vue" */ "C:\\sites\\client\\grangecapital\\src\\templates\\Post.vue")
+  },
+  {
+    path: "/posts/grange-capital-raises-finances-for-12m-residential-subdivision-in-austral/",
+    component: () => import(/* webpackChunkName: "page--src-templates-post-vue" */ "C:\\sites\\client\\grangecapital\\src\\templates\\Post.vue")
+  },
+  {
+    path: "/posts/grange-capital-raises-funds-for-9m-residential-townhouse-development/",
+    component: () => import(/* webpackChunkName: "page--src-templates-post-vue" */ "C:\\sites\\client\\grangecapital\\src\\templates\\Post.vue")
+  },
+  {
+    path: "/posts/grange-capital-finances-30m-106-lot-residential-subdivision/",
+    component: () => import(/* webpackChunkName: "page--src-templates-post-vue" */ "C:\\sites\\client\\grangecapital\\src\\templates\\Post.vue")
+  },
+  {
+    path: "/posts/grange-capital-facilitates-5-townhouse-development-sale/",
+    component: () => import(/* webpackChunkName: "page--src-templates-post-vue" */ "C:\\sites\\client\\grangecapital\\src\\templates\\Post.vue")
+  },
+  {
     path: "/team/",
     component: () => import(/* webpackChunkName: "page--src-pages-team-vue" */ "C:\\sites\\client\\grangecapital\\src\\pages\\Team.vue")
   },

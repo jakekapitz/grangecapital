@@ -22,6 +22,14 @@
             </div>
             <div class="w-full md:w-1/3 flex flex-col items-center">
                 <h3 class="font-bold capitalize mb-4 font-display text-xl relative subtitle-underline">News</h3>
+                <ul class="flex flex-col items-center justify-center">
+                    <li v-for="edge in $static.posts.edges" :key="edge.node.id">
+                        <g-link :to="edge.node.path" class="text-white hover:text-gc-light-grey transition-color text-center text-sm">
+                            <div class="font-bold capitalize">{{ edge.node.title }}</div>
+                            <div class="mb-4">{{ edge.node.date}}</div>
+                        </g-link>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="w-full bg-gc-dark-grey py-4 mx-auto flex justify-center items-center lg:justify-end lg:pr-16 text-sm">
@@ -34,6 +42,16 @@
 query {
     metadata {
         siteName
+    },
+    posts: allPost(sortBy: "date", order: DESC, limit: 3) {
+        edges {
+            node {
+                id
+                title
+                date
+                path
+            }
+        }
     }
 }
 </static-query>
