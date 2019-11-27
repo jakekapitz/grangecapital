@@ -39,7 +39,7 @@
       <g-image class="hidden lg:block lg:w-1/2" src="~/assets/images/ds.jpeg" width="550" height="550" fit="cover" quality="100" />
     </section>
 
-    <section class="container mx-auto flex" id="grangeCapitalInvestmentFund">
+    <section class="container mx-auto px-4 flex" id="grangeCapitalInvestmentFund">
       <div class="w-full py-16 text-gc-dark-grey">
         <h3 class="text-gc-red capitalize font-bold font-display text-3xl mb-4 relative title-underline">Grange Capital Investment Fund</h3>
         <p class="mb-4">The Grange Capital Investment Fund (GCIF) is an investment vehicle that co-invests with the Shareholders, Directors and Management of Grange via our strategic partner Bass Capital.</p>
@@ -116,7 +116,7 @@
     </section>
 
 
-    <section class="container mx-auto py-20" id="gTelecom">
+    <section class="container mx-auto px-4 py-20" id="gTelecom">
       <h3 class="text-gc-red capitalize font-bold font-display text-3xl mb-4 relative title-underline">Grange Telecom</h3>
       <h4 class="text-gc-red capitalize font-bold font-display text-xl mb-4 relative subtitle-underline">New Generation Ultra-Fast Network Solutions</h4>
       <p class="mb-4 text-gray-800"><span class="font-bold text-gc-yellow">Gtelecom</span> was founded in 1999. Ever since its inception it has been serving communities with value for money, reliable network and high speed broadband. <span class="font-bold text-gc-yellow">Gtelecom</span> is a licensed telecommunications network carrier, focusing on providing the latest technology at cost effective prices. Without compromising on quality or service.</p>

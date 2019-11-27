@@ -4,7 +4,7 @@
             <g-link to="/">
                 <g-image src="~/assets/images/logo.jpg" width="225"  quality="100" class="my-2"/>
             </g-link>
-            <nav class="flex sm:hidden md:flex font-display text-xl text-gray-800 font-bold">
+            <nav class="flex hidden lg:flex font-display text-xl text-gray-800 font-bold">
                 <g-link class="ml-8 hover:text-gc-yellow transition-color" to="/">Home</g-link>
                 <g-link class="ml-8 hover:text-gc-yellow transition-color" to="/business/">Our Business</g-link>
                 <g-link class="ml-8 hover:text-gc-yellow transition-color" to="/about/">About</g-link>
