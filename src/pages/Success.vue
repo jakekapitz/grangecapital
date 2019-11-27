@@ -1,6 +1,8 @@
 <template>
   <Layout>
-    <p>Enquiry Successfully submitted</p>
+    <div class="container mx-auto py-8">
+      <p>Enquiry Successfully submitted</p>
+    </div>
   </Layout>
 </template>
 
