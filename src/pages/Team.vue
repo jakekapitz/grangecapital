@@ -8,7 +8,7 @@
           <div class="py-4 px-12">
             <div class="flex flex-col-reverse font-display">
               <h2 class="text-gc-red text-5xl font-black">Carlos Sala</h2>
-              <h3 class="text-gc-dark-grey uppercase text-2xl font-bold">Director & Founding Partner</h3>
+              <h3 class="text-gc-dark-grey uppercase text-2xl font-bold relative title-underline">Director & Founding Partner</h3>
             </div>
             <p class="mb-4 leading-relaxed">A Founding Partner of Grange Capital, Carlos has spent over 15 years gaining experience in commercial debt and the technology sector. During his career he has run Enterprise teams across multiple regions for some of the largest companies in the industry.
             <p class="mb-4 leading-relaxed">Carlos holds a Degree in Finance and a Degree in International Business.</p>
@@ -46,7 +46,7 @@
           <div class="py-4 px-12">
             <div class="flex flex-col-reverse font-display">
               <h2 class="text-gc-red text-5xl font-black">Leigh Smith</h2>
-              <h3 class="text-gc-dark-grey uppercase text-2xl font-bold">Director & Founding Partner</h3>
+              <h3 class="text-gc-dark-grey uppercase text-2xl font-bold relative title-underline">Director & Founding Partner</h3>
             </div>
             <p class="mb-4 leading-relaxed">Coming Soon</p>
           </div>
