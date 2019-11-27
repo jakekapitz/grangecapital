@@ -4,6 +4,10 @@ export default [
     component: () => import(/* webpackChunkName: "page--src-pages-team-vue" */ "C:\\sites\\client\\grangecapital\\src\\pages\\Team.vue")
   },
   {
+    path: "/success/",
+    component: () => import(/* webpackChunkName: "page--src-pages-success-vue" */ "C:\\sites\\client\\grangecapital\\src\\pages\\Success.vue")
+  },
+  {
     path: "/news/",
     component: () => import(/* webpackChunkName: "page--src-pages-news-vue" */ "C:\\sites\\client\\grangecapital\\src\\pages\\News.vue")
   },

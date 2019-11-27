@@ -19,5 +19,9 @@ export default function (Vue, { router, head, isClient }) {
   head.link.push({
     rel: 'stylesheet',
     href: 'href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Open+Sans&display=swap'
+  }),
+  head.link.push({
+    rel: 'preconnect',
+    href: 'https://fonts.gstatic.com'
   })
 }

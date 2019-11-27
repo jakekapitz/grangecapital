@@ -29,18 +29,21 @@
         </div>
       </div>
     </div>
+    <ContactForm></ContactForm>
   </Layout>
 </template>
 
 <script>
 import PageTitleBar from '~/components/PageTitleBar.vue'
+import ContactForm from '~/components/ContactForm.vue'
 
 export default {
   metaInfo: {
     title: 'Contact Us'
   },
   components: {
-    PageTitleBar
+    PageTitleBar,
+    ContactForm
   },
   data () {
     return {
