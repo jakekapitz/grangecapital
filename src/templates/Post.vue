@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <PageTitleBar title="News"></PageTitleBar>
     <div>
     	<h1 v-html="$page.post.title" />
       <div v-html="$page.post.date" />
@@ -21,7 +22,15 @@ query ($id: ID!) {
 </page-query>
 
 <script>
+import PageTitleBar from '~/components/PageTitleBar.vue'
+
 export default {
-  
+  components: {
+    PageTitleBar
+  },
+  data () {
+    return {
+    }
+  }
 }
 </script>
