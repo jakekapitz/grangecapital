@@ -13,7 +13,7 @@
           <li class="py-2 px-8"><font-awesome :icon="['fas', 'chevron-circle-right']" class="text-gc-yellow mr-2"/> Structure transactions incorporating collateral security and other credit enhancing mechanisms, enabling them to proceed where others were unable to do so</li>
         </ul>
       </div>
-      <g-image class="hidden lg:block lg:w-1/2" src="~/assets/images/sdf.jpeg" width="570" quality="100" />
+      <g-image class="hidden lg:block lg:w-1/2" src="~/assets/images/sdf.jpeg" width="550" height="550" fit="cover" quality="100" />
     </section>
 
     <section class="container mx-auto flex flex-row-reverse bg-gc-lighter-grey items-center" id="mezzanineFinance">
@@ -27,7 +27,7 @@
           <li class="py-2 px-8"><font-awesome :icon="['fas', 'chevron-circle-right']" class="text-gc-yellow mr-2"/> In partnership with high quality, experienced and capable counter-parties, builders and consultants.</li>
         </ul>
       </div>
-      <g-image class="hidden lg:block lg:w-1/2" src="~/assets/images/mf.jpg" width="570" quality="100"/>
+      <g-image class="hidden lg:block lg:w-1/2" src="~/assets/images/mf.jpg" width="550" height="550" fit="cover" quality="100"/>
     </section>
 
     <section class="container mx-auto flex bg-gc-yellow-lighter items-center" id="developmentSales">
@@ -36,7 +36,7 @@
         <p class="mb-4">We provide consulting services for Property Developers and other asset holders who wish to leverage our broad network of developers seeking to sell and acquire new sites both with plans & permits, as well as sites with no permits.</p>
         <p class="mb-4">Grange Capital has their finger on the pulse of most developers across Victoria and Australia, and can assist with positioning assets for sale in front of such developers that traditional real estate agents cannot access.</p>
       </div>
-      <g-image class="hidden lg:block lg:w-1/2" src="~/assets/images/ds.jpeg" width="570" quality="100" />
+      <g-image class="hidden lg:block lg:w-1/2" src="~/assets/images/ds.jpeg" width="550" height="550" fit="cover" quality="100" />
     </section>
 
     <section class="container mx-auto px-4 flex" id="grangeCapitalInvestmentFund">
@@ -112,7 +112,7 @@
         <h3 class="text-gc-red capitalize font-bold font-display text-3xl mb-4 relative title-underline">Grange Capital IMF Development Fund</h3>
         <p class="mb-4">Grange Capital maintains a mandate with a leading European IMF fund for deployment of investment in altruistic, farming, housing and other projects that benefit the community. The minimum loan size is 40 Million Euro for access to this fund and other criteria apply specific to IMF regulation.</p>
       </div>
-      <g-image class="hidden lg:block lg:w-1/2" src="~/assets/images/imfdf.jpeg" width="570" quality="100" />
+      <g-image class="hidden lg:block lg:w-1/2" src="~/assets/images/imfdf.jpeg" width="550" height="550" fit="cover" quality="100" />
     </section>
 
 
