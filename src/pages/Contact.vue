@@ -2,35 +2,39 @@
   <Layout>
     <PageTitleBar :title=title></PageTitleBar>
     <div class="container flex flex-col lg:flex-row mx-auto my-8">
-      <div class="flex flex-wrap items-center justify-center w-full lg:w-1/2 py-6 px-6">
-        <div class="w-1/2 mb-12 px-2 flex flex-col items-center text-center">
-          <h3 class="text-gc-red font-display font-bold text-xl"><font-awesome :icon="['fas', 'mobile-alt']" size="lg" class="text-gc-yellow mr-4" />Phone</h3>
-          <div class="pl-2 md:pl-4 py-4">
+      <div class="items-center justify-center w-full lg:w-1/2 px-2" id="contactGrid">
+        <div class="mb-12 flex flex-col items-center text-center bg-gc-lighter-grey h-48 pt-4 mx-4 rounded shadow">
+          <font-awesome :icon="['fas', 'mobile-alt']" size="2x" class="text-gc-yellow mb-2" />
+          <h3 class="text-gc-yellow font-display font-bold text-2xl">Phone</h3>
+          <div class="py-4 bg-gc-lighter-grey w-full h-20 flex items-center justify-center flex-col shadow">
             <p><span class="font-semibold">Leigh -</span> 0424 888 482</p>
             <p><span class="font-semibold">Carlos -</span> 0438 853 330</p>
           </div>
         </div>
-        <div class="w-1/2 mb-12 px-2 flex flex-col items-center text-center">
-          <h3 class="text-gc-red font-display font-bold text-xl"><font-awesome :icon="['fas', 'building']" size="lg" class="text-gc-yellow mr-4" />Address</h3>
-          <div class="pl-2 md:pl-4 py-4">
+        <div class="mb-12 flex flex-col items-center text-center bg-gc-lighter-grey h-48 pt-4 mx-4 rounded shadow">
+          <font-awesome :icon="['fas', 'building']" size="2x" class="text-gc-yellow mb-2" />
+          <h3 class="text-gc-yellow font-display font-bold text-2xl">Address</h3>
+          <div class="py-4 bg-gc-lighter-grey w-full h-20 flex items-center justify-center flex-col shadow">
             <p>Suite 33, 574 Plummer Street<br><span class="font-semibold">PORT MELBOURNE VIC 3207</span></p>
           </div>
         </div>
-        <div class="w-1/2 mb-12 px-2 flex flex-col items-center text-center">
-          <h3 class="text-gc-red font-display font-bold text-xl"><font-awesome :icon="['fas', 'envelope']" size="lg" class="text-gc-yellow mr-4" />Email</h3>
-          <div class="pl-2 md:pl-4 py-4">
+        <div class="mb-12 flex flex-col items-center text-center bg-gc-lighter-grey h-48 pt-4 mx-4 rounded shadow">
+          <font-awesome :icon="['fas', 'envelope']" size="2x" class="text-gc-yellow mb-2" />
+          <h3 class="text-gc-yellow font-display font-bold text-2xl">Email</h3>
+          <div class="py-4 bg-gc-lighter-grey w-full h-20 flex items-center justify-center flex-col shadow">
             <p>enquiries@grangecapital.com.au</p>
           </div>
         </div>
-        <div class="w-1/2 mb-12 px-2 flex flex-col items-center text-center">
-          <h3 class="text-gc-red font-display font-bold text-xl"><font-awesome :icon="['fas', 'clock']" size="lg" class="text-gc-yellow mr-4" />Business Hours</h3>
-          <div class="pl-2 md:pl-4 py-4">
+        <div class="mb-12 flex flex-col items-center text-center bg-gc-lighter-grey h-48 pt-4 mx-4 rounded shadow">
+          <font-awesome :icon="['fas', 'clock']" size="2x" class="text-gc-yellow mb-2" />
+          <h3 class="text-gc-yellow font-display font-bold text-2xl">Business Hours</h3>
+          <div class="py-4 bg-gc-lighter-grey w-full h-20 flex items-center justify-center flex-col shadow">
             <p><strong>Weekdays:</strong> 8am - 5pm</p>
             <p><strong>Weekend:</strong> By Arrangement</p>
           </div>
         </div>
       </div>
-      <ContactForm class="w-full lg:w-1/2"></ContactForm>
+      <ContactForm class="w-full lg:w-1/2 px-2"></ContactForm>
     </div>
   </Layout>
 </template>
@@ -54,3 +58,19 @@ export default {
   }
 }
 </script>
+
+<style>
+@media only screen and (max-width: 640px) {
+  #contactGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (min-width: 640px) {
+  #contactGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+</style>
