@@ -19,7 +19,8 @@ library.add(faFacebook, faLinkedin, faInstagram, faChevronCircleRight, faChevron
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout),
-  Vue.component('font-awesome', FontAwesomeIcon),
-  Vue.use(AOS.init());
+  Vue.component('font-awesome', FontAwesomeIcon);
+  if (process.isClient) {
+    Vue.use(AOS.init())
+  }
 }
-AOS.init()
