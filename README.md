@@ -47,12 +47,12 @@ A GitHub account granted access to this private repository is required to login 
 1. Navigate to the [Admin page](https://grangecapital.com.au/admin)
 2. Click 'New Posts' button
 3. Fill in the fields
-  Field | Details
-  --- | ---
-  **Title** | Title of the post
-  **Publish Date** | Defaults to today's date, can backdate if required
-  **Featured Image** | Upload or select existing image to associate with the article; will display as a thumbnail on the News Page and in full size on the post page
-  **Body** | Write the body of the post here
+|Field              | Details|
+|-------------------|---|
+|**Title**          | Title of the post|
+|**Publish Date**   | Defaults to today's date, can backdate if required|
+|**Featured Image** | Upload or select existing image to associate with the article; will display as a thumbnail on the News Page and in full size on the post page|
+|**Body**           | Write the body of the post here|
  4. Click 'Publish' button
  
 Once an article is published, Netlify will automatically trigger a rebuild of the website. The new article will be shown on the site after ~1-2 minutes.
