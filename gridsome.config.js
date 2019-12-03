@@ -32,7 +32,9 @@ module.exports = {
       use: 'gridsome-plugin-tailwindcss',
       options: {
         tailwindConfig: './tailwind.config.js',
-        purgeConfig: {},
+        purgeConfig: {
+          whitelistPatterns: [/fa\-/]
+        },
         presetEnvConfig: {},
         shouldPurge: true,
         shouldImport: true,
