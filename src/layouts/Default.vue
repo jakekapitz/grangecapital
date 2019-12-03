@@ -1,7 +1,11 @@
 <template>
   <div class="text-gray-800">
     <Header></Header>
-    <slot/>
+    <transition name="fade" appear>
+      <main>
+        <slot/>
+      </main>
+    </transition>
     <Footer></Footer>
   </div>
 </template>
@@ -27,6 +31,10 @@ export default {
 </script>
 
 <style>
-
-
+.fade-enter-active {
+  transition: opacity .5s;
+}
+.fade-enter {
+  opacity: 0;
+}
 </style>
