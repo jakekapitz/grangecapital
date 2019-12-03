@@ -2,7 +2,7 @@
   <Layout>
     <PageTitleBar :title=title></PageTitleBar>
     <section class="container mx-auto mt-8">
-      <ul class="mb-4 justify-center" id="newsGrid">
+      <ul class="mb-4 justify-center" id="newsGrid" data-aos="slide-up">
         <li v-for="edge in $page.posts.edges" :key="edge.node.id" class="mx-8 mb-4 rounded overflow-hidden shadow-lg hover:shadow-2xl text-gc-dark-grey bg-gc-lighter-grey flex flex-col justify-between">
           <g-link :to="edge.node.path"><g-image :src="edge.node.image" style="object-fit: cover; height: 200px; width: 100%" /></g-link>
           <div class="py-4">

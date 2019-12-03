@@ -2,7 +2,7 @@
   <Layout>
     <PageTitleBar :title=title></PageTitleBar>
 
-    <section class="container mx-auto flex items-center" id="seniorDebtFinance">
+    <section class="container mx-auto flex items-center" id="seniorDebtFinance" data-aos="fade-left" data-aos-duration="750" data-aos-delay="250">
       <div class="w-full lg:w-1/2 px-8 py-16 text-gc-dark-grey">
         <h3 class="text-gc-red capitalize font-bold font-display text-3xl mb-4 relative title-underline">Senior Debt Finance</h3>
         <p class="mb-4">These transactions are generally funded via our strong partner channels. They reflect our ability to:</p>
@@ -16,7 +16,7 @@
       <g-image class="hidden lg:block lg:w-1/2" src="~/assets/images/sdf.jpeg" width="550" height="550" fit="cover" quality="100" />
     </section>
 
-    <section class="container mx-auto flex flex-row-reverse bg-gc-lighter-grey items-center" id="mezzanineFinance">
+    <section class="container mx-auto flex flex-row-reverse bg-gc-lighter-grey items-center" id="mezzanineFinance" data-aos="fade-right" data-aos-duration="750" data-aos-delay="750">
       <div class="w-full lg:w-1/2 px-8 py-16 text-gc-dark-grey">
         <h3 class="text-gc-red capitalize font-bold font-display text-3xl mb-4 relative title-underline">Mezzanine Finance</h3>
         <p class="mb-4">We provide mezzanine funding for development and investment assets. The funding is generally:</p>
@@ -30,7 +30,7 @@
       <g-image class="hidden lg:block lg:w-1/2" src="~/assets/images/mf.jpg" width="550" height="550" fit="cover" quality="100"/>
     </section>
 
-    <section class="container mx-auto flex bg-gc-yellow-lighter items-center" id="developmentSales">
+    <section class="container mx-auto flex bg-gc-yellow-lighter items-center" id="developmentSales" data-aos="fade-left" data-aos-duration="750" data-aos-delay="500">
       <div class="w-full lg:w-1/2 px-8 py-16 text-gc-dark-grey">
         <h3 class="text-gc-red capitalize font-bold font-display text-3xl mb-4 relative title-underline">Development Sales</h3>
         <p class="mb-4">We provide consulting services for Property Developers and other asset holders who wish to leverage our broad network of developers seeking to sell and acquire new sites both with plans & permits, as well as sites with no permits.</p>
@@ -39,7 +39,7 @@
       <g-image class="hidden lg:block lg:w-1/2" src="~/assets/images/ds.jpeg" width="550" height="550" fit="cover" quality="100" />
     </section>
 
-    <section class="container mx-auto px-4 flex" id="grangeCapitalInvestmentFund">
+    <section class="container mx-auto px-4 flex" id="grangeCapitalInvestmentFund" data-aos="slide-up" data-aos-duration="750" data-aos-delay="750">
       <div class="w-full py-16 text-gc-dark-grey">
         <h3 class="text-gc-red capitalize font-bold font-display text-3xl mb-4 relative title-underline">Grange Capital Investment Fund</h3>
         <p class="mb-4">The Grange Capital Investment Fund (GCIF) is an investment vehicle that co-invests with the Shareholders, Directors and Management of Grange via our strategic partner Bass Capital.</p>
@@ -107,7 +107,7 @@
       </div>
     </section>
 
-    <section class="container mx-auto flex flex-row-reverse bg-gc-lighter-grey items-center" id="gcImfDevelopmentFund">
+    <section class="container mx-auto flex flex-row-reverse bg-gc-lighter-grey items-center" id="gcImfDevelopmentFund" data-aos="slide-right" data-aos-duration="750" data-aos-delay="250">
       <div class="w-full lg:w-1/2 px-8 py-16 text-gc-dark-grey">
         <h3 class="text-gc-red capitalize font-bold font-display text-3xl mb-4 relative title-underline">Grange Capital IMF Development Fund</h3>
         <p class="mb-4">Grange Capital maintains a mandate with a leading European IMF fund for deployment of investment in altruistic, farming, housing and other projects that benefit the community. The minimum loan size is 40 Million Euro for access to this fund and other criteria apply specific to IMF regulation.</p>
@@ -116,15 +116,19 @@
     </section>
 
 
-    <section class="container mx-auto px-4 py-20" id="gTelecom">
+    <section class="container mx-auto px-4 py-20" id="gTelecom" data-aos="fade-up-left" data-aos-duration="750" data-aos-delay="250">
       <h3 class="text-gc-red capitalize font-bold font-display text-3xl mb-4 relative title-underline">Grange Telecom</h3>
-      <h4 class="text-gc-red capitalize font-bold font-display text-xl mb-4 relative subtitle-underline">New Generation Ultra-Fast Network Solutions</h4>
-      <p class="mb-4 text-gray-800"><span class="font-bold text-gc-yellow">Gtelecom</span> was founded in 1999. Ever since its inception it has been serving communities with value for money, reliable network and high speed broadband. <span class="font-bold text-gc-yellow">Gtelecom</span> is a licensed telecommunications network carrier, focusing on providing the latest technology at cost effective prices. Without compromising on quality or service.</p>
-      <h4 class="text-gc-red capitalize font-bold font-display text-xl mb-4 relative subtitle-underline">Why Work With G Telecom</h4>
-      <p class="mb-4 text-gray-800">As a developer, you’re at the heart of the projects that are shaping our country, so the decisions you make regarding telecommunications are vital.</p>
-      <p class="mb-4 text-gray-800">With <span class="font-bold text-gc-yellow">Gtelecom</span> you can offer your customers the widest selection of communications providers and services possible. The <span class="font-bold text-gc-yellow">Gtelecom</span> network is maintained by skilled field engineers working nationwide.</p>
-      <p class="mb-4 text-gray-800">But it’s not just the quality, reliability and reach of the network that makes it the obvious choice. <span class="font-bold text-gc-yellow">Gtelecom</span> believes it vital to share in depth knowledge of the products and services that people will use and an understanding of the wired data network that should be installed during construction. <span class="font-bold text-gc-yellow">Gtelecom</span> will assist you in delighting your customers by delivering a home/office that is ready to receive and consume the growing range of connected services over multiple devices.</p>
-      <p class="mb-4 text-gray-800">As a developer, every decision you make is important – or it could result to wasting time and money. We’ll guide and support you on every step of the way. Together we can plan, design and build a network that gives your customers access to the very latest services offered by the widest range of communications providers.</p>
+      <div data-aos="flip-up" data-aos-duration="1000" data-aos-delay="500">
+        <h4 class="text-gc-red capitalize font-bold font-display text-xl mb-4 relative subtitle-underline">New Generation Ultra-Fast Network Solutions</h4>
+        <p class="mb-4 text-gray-800"><span class="font-bold text-gc-yellow">Gtelecom</span> was founded in 1999. Ever since its inception it has been serving communities with value for money, reliable network and high speed broadband. <span class="font-bold text-gc-yellow">Gtelecom</span> is a licensed telecommunications network carrier, focusing on providing the latest technology at cost effective prices. Without compromising on quality or service.</p>
+      </div>
+      <div data-aos="flip-up" data-aos-duration="1000" data-aos-delay="500">
+        <h4 class="text-gc-red capitalize font-bold font-display text-xl mb-4 relative subtitle-underline">Why Work With G Telecom</h4>
+        <p class="mb-4 text-gray-800">As a developer, you’re at the heart of the projects that are shaping our country, so the decisions you make regarding telecommunications are vital.</p>
+        <p class="mb-4 text-gray-800">With <span class="font-bold text-gc-yellow">Gtelecom</span> you can offer your customers the widest selection of communications providers and services possible. The <span class="font-bold text-gc-yellow">Gtelecom</span> network is maintained by skilled field engineers working nationwide.</p>
+        <p class="mb-4 text-gray-800">But it’s not just the quality, reliability and reach of the network that makes it the obvious choice. <span class="font-bold text-gc-yellow">Gtelecom</span> believes it vital to share in depth knowledge of the products and services that people will use and an understanding of the wired data network that should be installed during construction. <span class="font-bold text-gc-yellow">Gtelecom</span> will assist you in delighting your customers by delivering a home/office that is ready to receive and consume the growing range of connected services over multiple devices.</p>
+        <p class="mb-4 text-gray-800">As a developer, every decision you make is important – or it could result to wasting time and money. We’ll guide and support you on every step of the way. Together we can plan, design and build a network that gives your customers access to the very latest services offered by the widest range of communications providers.</p>
+      </div>
     </section>
 
   </Layout>
