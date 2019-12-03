@@ -33,7 +33,7 @@ module.exports = {
       options: {
         tailwindConfig: './tailwind.config.js',
         purgeConfig: {
-          whitelistPatterns: [/fa\-/]
+          whitelistPatterns: [/svg-inline--fa/]
         },
         presetEnvConfig: {},
         shouldPurge: true,
