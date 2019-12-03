@@ -3,7 +3,7 @@
     <PageTitleBar :title=title></PageTitleBar>
     <section class="container mx-auto text-gc-dark-grey my-8">
       <article class="flex flex-col relative w-full lg:flex-row" id="carlos">
-        <g-image src="~/assets/images/carlos.png" class="w-full lg:w-1/2" />
+        <g-image src="~/assets/images/carlos.jpg" class="w-full lg:w-1/2" />
         <div class="w-full lg:w-1/2 flex flex-col justify-evenly p-0 mx-auto" style="background-color: #f1f1f1; min-height: 555px">
           <div class="py-4 px-12">
             <div class="flex flex-col-reverse font-display">
@@ -41,7 +41,7 @@
         </div>
       </article>
       <article class="flex flex-col relative w-full lg:flex-row-reverse" id="leigh">
-        <g-image src="~/assets/images/leigh.png" class="w-full lg:w-1/2" />
+        <g-image src="~/assets/images/leigh.jpg" class="w-full lg:w-1/2" />
         <div class="w-full lg:w-1/2 flex flex-col justify-evenly p-0 mx-auto" style="background-color: #f1f1f1; min-height: 555px">
           <div class="py-4 px-12">
             <div class="flex flex-col-reverse font-display">
