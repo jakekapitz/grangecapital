@@ -21,6 +21,12 @@ module.exports = {
       options: {
         publicPath: `/admin`
       }
+    },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-153750486-1'
+      }
     }
   ],
   icon: '/src/favicon.png',
