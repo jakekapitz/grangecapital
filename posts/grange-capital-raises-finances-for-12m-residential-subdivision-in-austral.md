@@ -1,5 +1,5 @@
 ---
-title: Grange Capital Raises Finances for $12m Residential Subdivision in Austral
+title: Grange Capital Finances $12m Residential Subdivision in Austral
 date: July 26th 2018
 image: /uploads/austral.jpg
 ---

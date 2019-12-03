@@ -1,7 +1,6 @@
 ---
 title: >-
-  Grange Capital Raises Finance for $12m Mixed-User Development in Sydney's
-  Northern Beaches
+  Grange Capital Finances $12m Mixed-Use Development in Northern Beaches
 date: February 12th 2019
 image: /uploads/balgowlah.jpg
 ---

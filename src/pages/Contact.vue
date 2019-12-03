@@ -11,18 +11,18 @@
             <p><span class="font-semibold">Carlos -</span> 0438 853 330</p>
           </div>
         </div>
-        <div class="mb-12 flex flex-col items-center text-center bg-gc-lighter-grey h-48 pt-4 mx-4 rounded shadow">
+        <a class="mb-12 flex flex-col items-center text-center bg-gc-lighter-grey h-48 pt-4 mx-4 rounded shadow hover:text-gc-red transition-color" href="https://goo.gl/maps/ZTzzNvn56jRW3Fhs6" target="_blank">
           <font-awesome :icon="['fas', 'building']" size="2x" class="text-gc-yellow mb-2" />
           <h3 class="text-gc-yellow font-display font-bold text-2xl">Address</h3>
           <div class="py-4 bg-gc-lighter-grey w-full h-20 flex items-center justify-center flex-col shadow">
             <p>Suite 33, 574 Plummer Street<br><span class="font-semibold">PORT MELBOURNE VIC 3207</span></p>
           </div>
-        </div>
+        </a>
         <div class="mb-12 flex flex-col items-center text-center bg-gc-lighter-grey h-48 pt-4 mx-4 rounded shadow">
           <font-awesome :icon="['fas', 'envelope']" size="2x" class="text-gc-yellow mb-2" />
           <h3 class="text-gc-yellow font-display font-bold text-2xl">Email</h3>
           <div class="py-4 bg-gc-lighter-grey w-full h-20 flex items-center justify-center flex-col shadow">
-            <p>enquiries@grangecapital.com.au</p>
+            <a href="mailto:enquiries@grangecapital.com.au" class="hover:text-gc-red transition-color"><p>enquiries@grangecapital.com.au</p></a>
           </div>
         </div>
         <div class="mb-12 flex flex-col items-center text-center bg-gc-lighter-grey h-48 pt-4 mx-4 rounded shadow">
