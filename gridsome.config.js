@@ -43,7 +43,7 @@ module.exports = {
       }
     }
   ],
-  icon: '/src/favicon.png',
+  icon: './src/favicon.png',
   css: {
     loaderOptions:{
       postcss: {
