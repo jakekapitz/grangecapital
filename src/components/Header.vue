@@ -2,15 +2,15 @@
     <header class="w-full h-32 mx-auto shadow-lg font-display sticky top-0 z-10 bg-white">
         <div class="container mx-auto px-4 flex justify-between items-center">
             <g-link to="/">
-                <g-image src="~/assets/images/logo.png" width="250"  quality="100" class="my-2"/>
+                <g-image src="~/assets/images/logo.png" width="250" quality="100" immediate="true" class="my-2"/>
             </g-link>
             <nav id="navbar">
                 <ul class="flex hidden lg:flex font-display text-xl text-gray-800 font-bold">
                     <li class="ml-10 hover:text-gc-yellow transition-color"><g-link to="/">Home</g-link></li>
                     <li class="ml-10">
                         <g-link to="/business/" class="hover:text-gc-yellow transition-color">Our Business</g-link>
-                        <font-awesome v-if="!dropdownOpen":icon="['fas', 'chevron-down']" size="sm" class="ml-2 hover:text-gc-yellow transition-color" @click="toggleDropdown"/>
-                        <font-awesome v-if="dropdownOpen":icon="['fas', 'chevron-up']" size="sm" class="ml-2 hover:text-gc-yellow transition-color" @click="toggleDropdown"/>
+                        <font-awesome v-if="!dropdownOpen" :icon="['fas', 'chevron-down']" size="sm" class="ml-2 hover:text-gc-yellow transition-color" @click="toggleDropdown"/>
+                        <font-awesome v-if="dropdownOpen" :icon="['fas', 'chevron-up']" size="sm" class="ml-2 hover:text-gc-yellow transition-color" @click="toggleDropdown"/>
                         <ul v-if="dropdownOpen" class="absolute bg-white mt-8 border rounded-lg shadow-lg">
                             <li @click="toggleDropdown" class="px-4 py-4 text-gc-dark-grey mx-2 border-b hover:text-gc-yellow transition-color"><g-link to="/business/#seniorDebtFinance">Senior Debt Finance</g-link></li>
                             <li @click="toggleDropdown" class="px-4 py-4 text-gc-dark-grey mx-2 border-b hover:text-gc-yellow transition-color"><g-link to="/business/#mezzanineFinance">Mezzanine Finance</g-link></li>
