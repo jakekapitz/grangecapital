@@ -16,7 +16,7 @@
       <g-image class="hidden lg:block lg:w-1/2" src="~/assets/images/sdf.jpg" width="550" height="550" fit="cover" quality="100" />
     </section>
 
-    <section class="container mx-auto flex flex-row-reverse bg-gc-lighter-grey items-center" id="mezzanineFinance" data-aos="fade-right" data-aos-duration="750" data-aos-delay="750">
+    <section class="container mx-auto flex flex-row-reverse bg-gc-lighter-grey items-center" id="mezzanineFinance" data-aos="fade-right" data-aos-duration="750" data-aos-delay="250">
       <div class="w-full lg:w-1/2 px-8 py-16 text-gc-dark-grey">
         <h3 class="text-gc-red capitalize font-bold font-display text-3xl mb-4 relative title-underline">Mezzanine Finance</h3>
         <p class="mb-4">We provide mezzanine funding for development and investment assets. The funding is generally:</p>
@@ -30,7 +30,7 @@
       <g-image class="hidden lg:block lg:w-1/2" src="~/assets/images/mf.jpg" width="550" height="550" fit="cover" quality="100"/>
     </section>
 
-    <section class="container mx-auto flex bg-gc-yellow-lighter items-center" id="developmentSales" data-aos="fade-left" data-aos-duration="750" data-aos-delay="500">
+    <section class="container mx-auto flex bg-gc-yellow-lighter items-center" id="developmentSales" data-aos="fade-left" data-aos-duration="750" data-aos-delay="250">
       <div class="w-full lg:w-1/2 px-8 py-16 text-gc-dark-grey">
         <h3 class="text-gc-red capitalize font-bold font-display text-3xl mb-4 relative title-underline">Development Sales</h3>
         <p class="mb-4">We provide consulting services for Property Developers and other asset holders who wish to leverage our broad network of developers seeking to sell and acquire new sites both with plans & permits, as well as sites with no permits.</p>
@@ -39,7 +39,7 @@
       <g-image class="hidden lg:block lg:w-1/2" src="~/assets/images/ds.jpg" width="550" height="550" fit="cover" quality="100" />
     </section>
 
-    <section class="container mx-auto px-4 flex" id="grangeCapitalInvestmentFund" data-aos="slide-up" data-aos-duration="750" data-aos-delay="750">
+    <section class="container mx-auto px-4 flex" id="grangeCapitalInvestmentFund" data-aos="slide-up" data-aos-duration="750" data-aos-delay="250">
       <div class="w-full py-16 text-gc-dark-grey">
         <h3 class="text-gc-red capitalize font-bold font-display text-3xl mb-4 relative title-underline">Grange Capital Investment Fund</h3>
         <p class="mb-4">The Grange Capital Investment Fund (GCIF) is an investment vehicle that co-invests with the Shareholders, Directors and Management of Grange via our strategic partner Bass Capital.</p>

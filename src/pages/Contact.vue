@@ -3,7 +3,7 @@
     <PageTitleBar :title=title></PageTitleBar>
     <div class="container flex flex-col lg:flex-row mx-auto my-8">
       <div class="items-center justify-center w-full lg:w-1/2 px-2" id="contactGrid">
-        <div class="mb-12 flex flex-col items-center text-center bg-gc-lighter-grey h-48 pt-4 mx-4 rounded shadow">
+        <div class="mb-8 flex flex-col items-center text-center bg-gc-lighter-grey h-48 pt-4 mx-4 rounded shadow">
           <font-awesome :icon="['fas', 'mobile-alt']" size="2x" class="text-gc-yellow mb-2" />
           <h3 class="text-gc-yellow font-display font-bold text-2xl">Phone</h3>
           <div class="py-4 bg-gc-lighter-grey w-full h-20 flex items-center justify-center flex-col shadow">
@@ -11,21 +11,21 @@
             <p><span class="font-semibold">Carlos -</span> 0438 853 330</p>
           </div>
         </div>
-        <a class="mb-12 flex flex-col items-center text-center bg-gc-lighter-grey h-48 pt-4 mx-4 rounded shadow hover:text-gc-red transition-color" href="https://goo.gl/maps/ZTzzNvn56jRW3Fhs6" target="_blank">
+        <a class="mb-8 flex flex-col items-center text-center bg-gc-lighter-grey h-48 pt-4 mx-4 rounded shadow hover:text-gc-red transition-color" href="https://goo.gl/maps/ZTzzNvn56jRW3Fhs6" target="_blank">
           <font-awesome :icon="['fas', 'building']" size="2x" class="text-gc-yellow mb-2" />
           <h3 class="text-gc-yellow font-display font-bold text-2xl">Address</h3>
           <div class="py-4 bg-gc-lighter-grey w-full h-20 flex items-center justify-center flex-col shadow">
             <p>Suite 33, 574 Plummer Street<br><span class="font-semibold">PORT MELBOURNE VIC 3207</span></p>
           </div>
         </a>
-        <div class="mb-12 flex flex-col items-center text-center bg-gc-lighter-grey h-48 pt-4 mx-4 rounded shadow">
+        <div class="mb-8 flex flex-col items-center text-center bg-gc-lighter-grey h-48 pt-4 mx-4 rounded shadow">
           <font-awesome :icon="['fas', 'envelope']" size="2x" class="text-gc-yellow mb-2" />
           <h3 class="text-gc-yellow font-display font-bold text-2xl">Email</h3>
           <div class="py-4 bg-gc-lighter-grey w-full h-20 flex items-center justify-center flex-col shadow">
             <a href="mailto:enquiries@grangecapital.com.au" class="hover:text-gc-red transition-color"><p>enquiries@grangecapital.com.au</p></a>
           </div>
         </div>
-        <div class="mb-12 flex flex-col items-center text-center bg-gc-lighter-grey h-48 pt-4 mx-4 rounded shadow">
+        <div class="mb-8 flex flex-col items-center text-center bg-gc-lighter-grey h-48 pt-4 mx-4 rounded shadow">
           <font-awesome :icon="['fas', 'clock']" size="2x" class="text-gc-yellow mb-2" />
           <h3 class="text-gc-yellow font-display font-bold text-2xl">Business Hours</h3>
           <div class="py-4 bg-gc-lighter-grey w-full h-20 flex items-center justify-center flex-col shadow">
@@ -34,7 +34,7 @@
           </div>
         </div>
       </div>
-      <ContactForm class="w-full lg:w-1/2 px-2"></ContactForm>
+      <ContactForm class="w-full lg:w-1/2 px-2 mb-8"></ContactForm>
     </div>
   </Layout>
 </template>

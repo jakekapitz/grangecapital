@@ -23,7 +23,7 @@ query ($id: ID!) {
   post(id: $id) {
     title
     content
-    date
+    date (format: "Do MMMM YYYY")
     image
   }
 }

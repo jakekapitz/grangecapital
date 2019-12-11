@@ -71,7 +71,7 @@ query ($page: Int) {
       node {
         id
         title
-        date
+        date (format: "Do MMMM YYYY")
         image
         content
         path

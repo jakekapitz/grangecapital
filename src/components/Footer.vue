@@ -48,7 +48,7 @@ query {
             node {
                 id
                 title
-                date
+                date (format: "Do MMMM YYYY")
                 path
             }
         }
