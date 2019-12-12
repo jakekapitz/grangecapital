@@ -33,11 +33,11 @@ export default {
 }
 
 .bg-pan {
-  animation: bg-pan 20s linear infinite alternate;
+  animation: bg-pan 30s linear infinite alternate;
 }
 
 .kenburns {
-  animation: kenburns 10s linear infinite alternate;
+  animation: kenburns 20s linear infinite alternate;
 }
 
 
