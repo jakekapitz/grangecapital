@@ -12,12 +12,12 @@
                         <font-awesome v-if="!dropdownOpen" :icon="['fas', 'chevron-down']" size="sm" class="ml-2 hover:text-gc-yellow transition-color" @click="toggleDropdown"/>
                         <font-awesome v-if="dropdownOpen" :icon="['fas', 'chevron-up']" size="sm" class="ml-2 hover:text-gc-yellow transition-color" @click="toggleDropdown"/>
                         <ul v-if="dropdownOpen" class="absolute bg-white mt-8 border rounded-lg shadow-lg">
-                            <li @click="toggleDropdown" class="px-4 py-4 text-gc-dark-grey mx-2 border-b hover:text-gc-yellow transition-color"><g-link to="/business/#seniorDebtFinance">Senior Debt Finance</g-link></li>
-                            <li @click="toggleDropdown" class="px-4 py-4 text-gc-dark-grey mx-2 border-b hover:text-gc-yellow transition-color"><g-link to="/business/#mezzanineFinance">Mezzanine Finance</g-link></li>
-                            <li @click="toggleDropdown" class="px-4 py-4 text-gc-dark-grey mx-2 border-b hover:text-gc-yellow transition-color"><g-link to="/business/#developmentSales">Development Sales</g-link></li>
-                            <li @click="toggleDropdown" class="px-4 py-4 text-gc-dark-grey mx-2 border-b hover:text-gc-yellow transition-color"><g-link to="/business/#grangeCapitalInvestmentFund">Grange Capital Investment Fund</g-link></li>
-                            <li @click="toggleDropdown" class="px-4 py-4 text-gc-dark-grey mx-2 border-b hover:text-gc-yellow transition-color"><g-link to="/business/#gcImfDevelopmentFund">IMF Development Fund</g-link></li>
-                            <li @click="toggleDropdown" class="px-4 py-4 text-gc-dark-grey mx-2 border-b hover:text-gc-yellow transition-color"><g-link to="/business/#gTelecom">Grange Telecom</g-link></li>
+                            <li @click="toggleDropdown" class="header-dropdown hover:text-gc-yellow transition-color"><g-link to="/business/#seniorDebtFinance">Senior Debt Finance</g-link></li>
+                            <li @click="toggleDropdown" class="header-dropdown hover:text-gc-yellow transition-color"><g-link to="/business/#mezzanineFinance">Mezzanine Finance</g-link></li>
+                            <li @click="toggleDropdown" class="header-dropdown hover:text-gc-yellow transition-color"><g-link to="/business/#developmentSales">Development Sales</g-link></li>
+                            <li @click="toggleDropdown" class="header-dropdown hover:text-gc-yellow transition-color"><g-link to="/business/#grangeCapitalInvestmentFund">Grange Capital Investment Fund</g-link></li>
+                            <li @click="toggleDropdown" class="header-dropdown hover:text-gc-yellow transition-color"><g-link to="/business/#gcImfDevelopmentFund">IMF Development Fund</g-link></li>
+                            <li @click="toggleDropdown" class="header-dropdown hover:text-gc-yellow transition-color"><g-link to="/business/#gTelecom">Grange Telecom</g-link></li>
                         </ul>
                     </li>
                     <li class="ml-8 hover:text-gc-yellow transition-color"><g-link to="/about/">About</g-link></li>

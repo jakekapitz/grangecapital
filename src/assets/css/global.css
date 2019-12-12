@@ -1,5 +1,25 @@
 @tailwind base;
 @tailwind components;
+
+.contact-card {
+  @apply flex flex-col items-center text-center bg-gc-lighter-grey h-48 pt-4 rounded shadow;
+}
+.contact-card_title {
+  @apply text-gc-yellow font-display font-bold text-2xl mb-2;
+}
+.contact-card_detail {
+  @apply py-4 bg-gc-lighter-grey w-full h-20 flex items-center justify-center flex-col shadow;
+}
+.header-dropdown {
+  @apply px-4 py-4 text-gc-dark-grey mx-2 border-b;
+}
+.business-heading {
+  @apply text-gc-red capitalize font-bold font-display text-3xl mb-4 relative;
+}
+.business-subheading {
+  @apply mb-4 text-gc-red font-display text-2xl font-bold relative capitalize;
+}
+
 @tailwind utilities;
 
 .transition-color {
