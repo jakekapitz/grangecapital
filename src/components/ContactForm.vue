@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto bg-gc-lighter-grey rounded shadow px-8 pt-6 pb-8 mb-4">
+  <div class="bg-gc-lighter-grey rounded shadow px-4 pt-6 pb-8">
     <h2 class="font-display text-2xl font-bold text-gc-red mb-4 relative subtitle-underline">Contact Form</h2>
     <form 
       name="contact"

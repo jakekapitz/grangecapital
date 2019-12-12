@@ -2,8 +2,8 @@
   <Layout>
     <PageTitleBar :title=title></PageTitleBar>
     <section class="container mx-auto mt-8">
-      <ul class="mb-4 justify-center" id="newsGrid" data-aos="slide-up">
-        <li v-for="edge in $page.posts.edges" :key="edge.node.id" class="mx-8 mb-4 rounded overflow-hidden shadow-lg hover:shadow-2xl text-gc-dark-grey bg-gc-lighter-grey flex flex-col justify-between">
+      <ul class="mb-4 justify-center mx-2" id="newsGrid" data-aos="slide-up">
+        <li v-for="edge in $page.posts.edges" :key="edge.node.id" class="rounded overflow-hidden shadow hover:shadow-md text-gc-dark-grey bg-gc-lighter-grey flex flex-col justify-between">
           <g-link :to="edge.node.path"><g-image :src="edge.node.image" style="object-fit: cover; height: 200px; width: 100%" /></g-link>
           <div class="py-4">
             <g-link :to="edge.node.path"><div class="font-bold font-display text-xl hover:text-gc-yellow mb-2 bg-gc-lighter-grey px-4 py-4">{{ edge.node.title }}</div></g-link>
@@ -36,23 +36,26 @@ export default {
 }
 </script>
 <style>
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
   #newsGrid {
     display: grid;
     grid-template-columns: 1fr;
+    grid-row-gap: 2rem;
   }
 }
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 768px) {
   #newsGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem 4rem;
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   #newsGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 2rem 4rem;
   }
 }
 
