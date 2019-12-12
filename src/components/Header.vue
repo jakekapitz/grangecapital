@@ -1,8 +1,8 @@
 <template>
-    <header class="w-full h-32 mx-auto shadow-lg font-display sticky top-0 z-10 bg-white">
-        <div class="container mx-auto px-4 flex justify-between items-center">
+    <header class="w-full h-auto mx-auto shadow-lg font-display sticky top-0 z-10 bg-white">
+        <div class="container mx-auto px-2 flex justify-between items-center">
             <g-link to="/">
-                <g-image src="~/assets/images/logo.png" width="250" quality="100" immediate="true" class="my-2"/>
+                <g-image src="~/assets/images/logo.png" width="275" quality="100" immediate="true" class="my-2"/>
             </g-link>
             <nav id="navbar">
                 <ul class="flex hidden lg:flex font-display text-xl text-gray-800 font-bold">
