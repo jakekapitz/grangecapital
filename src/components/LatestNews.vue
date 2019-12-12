@@ -1,6 +1,6 @@
 <template>
   <ul class="flex flex-col items-center justify-center mx-4 mt-4">
-    <li v-for="edge in $static.posts.edges" :key="edge.node.id" class="flex items-center mb-2">
+    <li v-for="edge in $static.posts.edges" :key="edge.node.id" class="flex items-center py-3 border-b border-gc-lighter-grey">
       <div class="w-1/4">
         <g-image :src="edge.node.image" class="rounded" width="70" height="70"/>
       </div>
